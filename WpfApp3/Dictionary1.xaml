@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfApp3">
+
+    <XmlDataProvider x:Key="p1" Source="Data/Categories.xml" XPath="categories"></XmlDataProvider>
+    <XmlDataProvider x:Key="p2" Source="Data/Genres.xml" XPath="genres"></XmlDataProvider>
+    <XmlDataProvider x:Key="p3" Source="Data/Book.xml" XPath="books"></XmlDataProvider>
+    <LinearGradientBrush x:Key="m3">
+        <GradientStop Color="Yellow" Offset="0.0" />
+        <GradientStop Color="Red" Offset="0.25" />
+        <GradientStop Color="Blue" Offset="0.75" />
+        <GradientStop Color="LimeGreen" Offset="1.0" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="m2">
+
+        <GradientStop Color="DarkMagenta" Offset="0.0"/>
+        <GradientStop Color="Bisque" Offset="0.3"/>
+
+        <GradientStop Color="LightPink" Offset="1.0"/>
+
+    </LinearGradientBrush>
+
+   
+
+    <Style TargetType="TextBox"  x:Key="b2">
+        <Setter Property="FontFamily" Value="Mistral"></Setter>
+        <Setter Property="FontSize" Value="30"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource m3}" />
+
+        <Setter Property="Height" Value="35" />
+      
+    </Style>
+    <Style TargetType="TextBlock"  x:Key="b3">
+        <Setter Property="FontFamily" Value="Mistral"></Setter>
+        <Setter Property="FontSize" Value="50"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource m3}" />
+
+        <Setter Property="Height" Value="55" />
+
+    </Style>
+
+
+</ResourceDictionary>

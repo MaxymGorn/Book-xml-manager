@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<genres>
+  <genre id="101" name="Фантастика" cid="100"></genre>
+  <genre id="102" name="Приключения" cid="100"></genre>
+  <genre id="103" name="Боевики" cid="100"></genre>
+  <genre id="104" name="Нау" cid="100"></genre>
+  <genre id="201" name="Триллер" cid="200"></genre>
+  <genre id="202" name="Авангардная литература" cid="200"></genre>
+  <genre id="203" name="Приключения" cid="200"></genre>
+  <genre id="301" name="Мистика" cid="300"></genre>
+  <genre id="302" name="Сказки" cid="300"></genre>
+  <genre id="401" name="Фэнтези" cid="400"></genre>
+  <genre id="501" name="Ужасы" cid="500"></genre>
+  <genre id="502" name="Любовный роман" cid="500"></genre>
+  <genre id="503" name="Исторический роман" cid="500"></genre>
+  <genre id="504" name="Фантастика" cid="500"></genre>
+
+  
+</genres>

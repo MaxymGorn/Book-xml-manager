@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books>
+  <book   id="101" autor="Данте Алигьери" price="100" idchanr="101" name="Божественная комедия" nameimg="COMEDY.jpg"></book>
+  <book   id="102" autor="Ганс Кристиан Андерсен" price="35" idchanr="101" name="Сказки" nameimg="skazli.jpg"></book>
+  <book   id="103" autor="Оноре де Бальзак" price="24" idchanr="102" name="Отец Горио" nameimg="horio.jpg"></book>
+  <book   id="104" autor="Вергилий" price="68" idchanr="103" name="Энеида" nameimg="eNEIDA.jpg"></book>
+  <book   id="105" autor="Иоганн Вольфганг фон Гете" price="234" idchanr="104" name="Фауст" nameimg="faust.jpg"></book>
+  <book   id="106" autor="Автор неизвестен" price="бесценно" idchanr="105" name="Тысяча и одна ночь" nameimg="TICACHA.jpg"></book>
+
+</books>
